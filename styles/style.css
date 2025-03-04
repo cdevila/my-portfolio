@@ -26,18 +26,29 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #fff;
+    background-color: #135D66;
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .navbar h1 {
     margin: 0;
     font-size: 2rem;
+    color: #fff;
 }
 
 .navbar nav {
     display: flex;
     gap: 20px; /* Adds space between links */
+}
+
+.navbar nav a {
+    text-decoration: none; /* Removes underline */
+    color: #fff; /* Makes links white */
+    font-weight: bold; /* Makes links bold */
+}
+
+.navbar nav a:hover {
+    color: #f0f0f0; /* Slightly lighter white on hover */
 }
 
 /* Hero Section */
